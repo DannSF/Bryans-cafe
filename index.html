@@ -1,1 +1,135 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bryan's Café</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <ul class="sidebar">
+          <li onclick="hideSidebar()">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#000000"
+              >
+                <path
+                  d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                />
+              </svg>
+            </a>
+          </li>
+          <li><a href="pages/menu.html">Menu</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
+        <ul>
+          <li><a href="index.html">Bryan's Café</a></li>
+          <li class="hideOnMobile"><a href="pages/menu.html">Menu</a></li>
+          <li class="hideOnMobile"><a href="index.html">About</a></li>
+          <li class="hideOnMobile"><a href="pages/contact.html">Contact</a></li>
+          <li class="showOnMobile" onclick="showSidebar()">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#000000"
+              >
+                <path
+                  d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container">
+        <section class="banner"></section>
+        <section class="about">
+          <div class="content">
+            <h2>About Bryan's Café</h2>
+            <p>
+              At Bryan's Café, we believe that food is not just about
+              sustenance; it's about bringing people together. Nestled in the
+              heart of Surry Hills, our café is a cozy haven where locals and
+              visitors alike can enjoy a moment of relaxation amidst the hustle
+              and bustle of city life.
+            </p>
+            <p>
+              Our menu features a delightful array of meals and beverages
+              crafted from the freshest ingredients, sourced locally whenever
+              possible. Whether you're looking for a hearty breakfast, a light
+              lunch, or a sweet treat to accompany your coffee, we have
+              something to satisfy every craving.
+            </p>
+            <p>
+              We pride ourselves on our friendly service and warm atmosphere,
+              making Bryan's Café the perfect place for family gatherings,
+              friendly catch-ups, or simply enjoying some quiet time with a good
+              book.
+            </p>
+          </div>
+          <div class="image">
+            <img src="images/about.jpg" alt="Imagen del café" />
+          </div>
+        </section>
+        <section class="history">
+          <div class="image">
+            <img src="images/history.jpg" alt="Historia del café" />
+          </div>
+          <div class="content">
+            <h2>Our History</h2>
+            <p>
+              Founded in 2021 by Bryan and Emily, a husband-and-wife team
+              passionate about food and community, Bryan's Café started as a
+              small dream in their kitchen. After years of catering for friends
+              and family, they decided to open their doors to the public,
+              believing that great food has the power to connect people and
+              create lasting memories.
+            </p>
+            <p>
+              What began as a humble coffee shop has blossomed into a beloved
+              café known for its unique menu and warm ambiance. Over the years,
+              Bryan's Café has become a gathering spot for the community,
+              hosting events and workshops that celebrate local culture and
+              creativity.
+            </p>
+            <p>
+              From our signature beetroot salad to our rich espresso drinks,
+              each item on the menu reflects our commitment to quality and
+              sustainability. We're proud to have received accolades from local
+              food critics and, more importantly, to have built a loyal customer
+              base that feels like family.
+            </p>
+            <p>
+              As we continue to grow, our mission remains the same: to provide a
+              welcoming space where everyone can come together over delicious
+              food and great conversation. Thank you for being part of our
+              journey!
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        <strong id="footer-text"></strong> Bryan's Café |
+        <a href="pages/privacy-policy.html">Privacy Policy</a>
+      </p>
+    </footer>
+  </body>
+
+  <script src="js/main.js"></script>
+</html>
