@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu SYSTEM "menu.dtd">
+<menu>
+    <meals>
+        <meal>
+            <name>Beetroot and Feta Salad</name>
+            <price>15.00</price>
+            <description>A refreshing salad made with fresh beetroot, creamy feta, and a sprinkle of nuts, served on a bed of mixed greens. Perfect for vegetarians!</description>
+            <image>images/Beetroot and Feta Salad.jpg</image>
+        </meal>
+        <meal>
+            <name>Sourdough Rye Sandwich</name>
+            <price>18.00</price>
+            <description>Cheese and salad sandwich made with organic sourdough rye bread. A delicious choice for a light lunch.</description>
+            <image>images/Sourdough Rye Sandwich.jpg</image>
+        </meal>
+        <meal>
+            <name>Spinach Pie and Salad</name>
+            <price>20.00</price>
+            <description>A savory pie filled with fresh spinach and feta cheese, served with a side salad. A delightful dish to satisfy your cravings.</description>
+            <image>images/Spinach Pie and Salad.jpg</image>
+        </meal>
+        <meal>
+            <name>Feta Pancakes with Salad</name>
+            <price>19.50</price>
+            <description>Tasty pancakes filled with creamy feta cheese, accompanied by a refreshing side salad. A perfect blend of flavors.</description>
+            <image>images/Feta Pancakes with Salad.jpg</image>
+        </meal>
+        <meal>
+            <name>Chicken Avocado Wrap</name>
+            <price>17.00</price>
+            <description>Grilled chicken, fresh avocado, and crunchy vegetables wrapped in a soft tortilla. Served with a side of salsa.</description>
+            <image>images/Chicken Avocado Wrap.jpg</image>
+        </meal>
+        <meal>
+            <name>Quinoa and Roasted Vegetable Bowl</name>
+            <price>18.50</price>
+            <description>Nutritious quinoa topped with a colorful mix of roasted seasonal vegetables and drizzled with balsamic glaze.</description>
+            <image>images/Quinoa and Roasted Vegetable Bowl.jpg</image>
+        </meal>
+        <meal>
+            <name>Classic Cheeseburger</name>
+            <price>22.00</price>
+            <description>A juicy beef patty topped with melted cheese, lettuce, tomato, and our special sauce, served with crispy fries.</description>
+            <image>images/Classic Cheeseburger.jpg</image>
+        </meal>
+        <meal>
+            <name>Vegetarian Lasagna</name>
+            <price>21.00</price>
+            <description>Layers of pasta, rich tomato sauce, and a medley of seasonal vegetables, topped with melted cheese. A hearty choice!</description>
+            <image>images/Vegetarian Lasagna.jpg</image>
+        </meal>
+        <meal>
+            <name>Thai Green Curry</name>
+            <price>22.50</price>
+            <description>A fragrant curry made with fresh vegetables and tofu, served with jasmine rice. A taste of Thailand!</description>
+            <image>images/Thai Green Curry.jpg</image>
+        </meal>
+        <meal>
+            <name>Mushroom Risotto</name>
+            <price>19.00</price>
+            <description>Creamy risotto cooked with fresh mushrooms and topped with grated parmesan cheese.</description>
+            <image>images/Mushroom Risotto.jpg</image>
+        </meal>
+    </meals>
+    <beverages>
+        <beverage>
+            <name>Small Coffee</name>
+            <price>3.50</price>
+            <description>A rich and flavorful cup of coffee, perfect for a quick pick-me-up.</description>
+        </beverage>
+        <beverage>
+            <name>Regular Coffee</name>
+            <price>4.00</price>
+            <description>Our standard serving of coffee, expertly brewed for a smooth finish.</description>
+        </beverage>
+        <beverage>
+            <name>Large Coffee</name>
+            <price>4.50</price>
+            <description>A generous serving of coffee for those who need that extra boost!</description>
+        </beverage>
+        <beverage>
+            <name>Hot Chocolate</name>
+            <price>4.50</price>
+            <description>Creamy and indulgent hot chocolate topped with whipped cream. A delightful treat!</description>
+        </beverage>
+        <beverage>
+            <name>Soda</name>
+            <price>3.00</price>
+        </beverage>
+        <beverage>
+            <name>Fresh Juice</name>
+            <price>6.00</price>
+            <description>Made fresh daily from seasonal fruits. Refreshing and full of vitamins!</description>
+        </beverage>
+        <beverage>
+            <name>Bottled Water</name>
+            <price>2.00</price>
+        </beverage>
+        <beverage>
+            <name>Iced Tea</name>
+            <price>4.00</price>
+            <description>Refreshing iced tea, perfect for warm days.</description>
+        </beverage>
+        <beverage>
+            <name>Herbal Tea</name>
+            <price>3.50</price>
+            <description>A soothing selection of herbal teas to calm the senses.</description>
+        </beverage>
+    </beverages>
+</menu>

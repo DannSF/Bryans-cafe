@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT branches (branch+)>
+<!ELEMENT branch (address, contact, opening_hours, map_link)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!ELEMENT opening_hours (#PCDATA)>
+<!ELEMENT map_link (#PCDATA)>
